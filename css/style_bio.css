@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    min-height: 100vh;
+}
+/*----------------------------------------------------*/ 
+html,
+body {
+ height: 100%;
+ position: relative;
+}
+
+.main-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 100px; /* height of your footer */
+}
+
+table {
+    padding: 10px;
+}
+
+hr {
+    background-color: #E3D18A;
+    border: none;
+    height: 1px;
+    width: 800px;
+    position: relative;
+    text-align: center;
+}
+h1 {
+    color: #402218;
+    font-family: 'Noto Serif', serif;
+    
+
+}
+
+h3 {
+    color:#9E7540;
+    font-family: 'Noto Serif', serif;
+}
+
+h4 {
+    color: #9E7540;
+    font-family: 'Noto Serif', serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+p {
+    text-transform: none;
+    text-align: justify;
+    text-decoration: none;
+    font-family:'Noto Serif', serif; 
+    font-size: 14px;
+    padding-left: 250px;
+    padding-right: 100px;
+}
+.languages {
+    text-align: justify;
+    padding-left: 320px;
+}
+
+.school-jobs {
+    text-align: justify;
+    padding-left: 320px;
+}
+
+/* MENU */
+/*----------------------------------------------------*/  
+.vertical-menu {
+    width: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    padding-top: 190px;
+    text-align: center;
+    font-size: 15px;
+    overflow: auto;
+    list-style: none;
+}
+
+.vertical-menu a {
+    background-color: #402218; 
+    color: #FAF1E6;
+    display: block; 
+    padding: 12px;
+    text-decoration: none;
+    
+}
+
+.vertical-menu a:hover {
+    background-color: #9E7540;
+}
+
+.vertical-menu a.active {
+    background-color: #E3D18A;
+    color: #FAF1E6;
+}
+/*----------------------------------------------------*/ 
+/* sociální sítě - down menu */ 
+ul {
+    padding:0;
+    list-style: none;
+}
+.social-icons {
+    width: 180px;
+    display: block;
+    right: 0%;
+    margin: 0;
+    position: absolute;
+}
+.social-icon {
+    color: #fff;
+}
+ul.social-icons {
+    margin-top: 10px;
+}
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-facebook {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #402218;
+}
+.fa-facebook:hover {
+    background-color: #3d5b99;
+}
+
+.fa-twitter {
+    padding:10px 12px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #402218;
+}
+
+.fa-twitter:hover {
+    background-color: #00aced;
+}
+.fa-rss {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #402218;
+}
+.fa-rss:hover {
+    background-color: #eb8231;
+}
+.fa-youtube {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #402218;
+}
+.fa-youtube:hover {
+    background-color: #e64a41;
+}
+.fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #402218;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}
+.fa-github {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #402218;
+}
+.fa-github:hover {
+    background-color: #5a32a3;
+}
+
+
+/*----------------------------------------------------*/  
+/* copyright */ 
+.copyright {
+    position: absolute;
+    color: #FAF1E6 ;
+    font-size: small;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #7D5A50;
+}
+
